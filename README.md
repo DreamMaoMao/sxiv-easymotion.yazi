@@ -1,6 +1,6 @@
 # sxiv.yazi
 
-Preview and select image files through [sxiv](https://github.com/xyb3rt/sxiv)
+Preview and select image files through [sxiv](https://github.com/DreamMaoMao/sxiv)
 
 
 https://github.com/user-attachments/assets/f58e9218-9511-4622-ba24-17c1f6019ec2
