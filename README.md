@@ -1,5 +1,11 @@
 # sxiv.yazi
 
+
+
+https://github.com/user-attachments/assets/5e32b111-71a4-4f86-83b0-bd4de5483e9c
+
+
+
 Preview and select image files through [sxiv-maomao](https://github.com/DreamMaoMao/sxiv)
 
 
