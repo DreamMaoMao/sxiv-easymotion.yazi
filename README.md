@@ -12,6 +12,11 @@ https://github.com/user-attachments/assets/68bdc875-5380-4a3b-91ad-86975472109a
 Preview and select image files through [sxiv-maomao](https://github.com/DreamMaoMao/sxiv)
 
 
+## install
+```bash
+git clone https://github.com/DreamMaoMao/sxiv.yazi.git ~/.config/yazi/plugins/sxiv.yazi
+``
+
 ## Usage
 
 Add this to your `~/.config/yazi/keymap.toml`:
