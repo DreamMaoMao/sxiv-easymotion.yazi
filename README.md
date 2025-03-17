@@ -20,6 +20,15 @@ run  = "plugin sxiv"
 desc = "Preview images in sxiv"
 ```
 
+## action in sxiv-maomao
+- move: h/j/k/l/up/down/right/left
+- toggle-fullwindow: f
+- select: space
+- select or jump: return (if no select files will jump current)
+
+```
+```
+
 ## License
 
 This plugin is MIT-licensed. For more information check the [LICENSE](LICENSE) file.
