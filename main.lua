@@ -39,5 +39,6 @@ return {
 				ya.manager_emit("toggle", { Url(line_seq[2]), state = "on" })
 			end			
 		end
+		ya.manager_emit("reveal", { line_seq[2] })
 	end,
 }
