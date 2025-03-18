@@ -17,7 +17,7 @@ Preview and select image files through [sxiv-maomao](https://github.com/DreamMao
 
 ## install
 ```bash
-git clone https://github.com/DreamMaoMao/sxiv.yazi.git ~/.config/yazi/plugins/sxiv.yazi
+git clone https://github.com/DreamMaoMao/sxiv-easymotion.yazi.git ~/.config/yazi/plugins/sxiv-easymotion.yazi
 ``
 
 ## Usage
@@ -26,8 +26,8 @@ Add this to your `~/.config/yazi/keymap.toml`:
 
 ```toml
 [[manager.prepend_keymap]]
-on   = ["c", "i"]
-run  = "plugin sxiv"
+on   = ["u", "a"]
+run  = "plugin sxiv-easymotion.yazi"
 desc = "Preview images in sxiv"
 ```
 
@@ -37,7 +37,8 @@ desc = "Preview images in sxiv"
 -  select: space
 -  select or jump: return (if no select files will jump current)
 -  easymotion: i
--  esc easymotion: esc
+-  esc: esc easymotion
+-  backspace: delete first input key
 
 ```
 ```
