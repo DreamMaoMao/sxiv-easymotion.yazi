@@ -27,7 +27,7 @@ Add this to your `~/.config/yazi/keymap.toml`:
 ```toml
 [[manager.prepend_keymap]]
 on   = ["u", "a"]
-run  = "plugin sxiv-easymotion.yazi"
+run  = "plugin sxiv-easymotion"
 desc = "Preview images in sxiv"
 ```
 
