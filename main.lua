@@ -32,13 +32,13 @@ return {
 		for _, value in ipairs(selected) do
 			line_seq = string_split(value,"###")
 			if line_seq[1] == "jump" then
-				ya.manager_emit("reveal", { line_seq[2] })
+				ya.mgr_emit("reveal", { line_seq[2] })
 				return
 			elseif line_seq[1] == "select" then
 				-- this is a test, can't to select multi files
-				ya.manager_emit("toggle", { Url(line_seq[2]), state = "on" })
+				ya.mgr_emit("toggle", { Url(line_seq[2]), state = "on" })
 			end			
 		end
-		ya.manager_emit("reveal", { line_seq[2] })
+		ya.mgr_emit("reveal", { line_seq[2] })
 	end,
 }
